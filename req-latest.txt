@@ -35,7 +35,6 @@ jupyter-client
 jupyter-core
 jupyterlab-pygments
 Keras
-keras-nightlydev2021032900
 Keras-Preprocessing
 kiwisolver
 Markdown

@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -33,7 +33,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           sudo apt install python3-pip
-          pip3 install -r req-latest.txt
+          pip3 install -r req.txt
           cd test
           ./run_tests.sh
-          
